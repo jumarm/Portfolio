@@ -866,3 +866,43 @@
 	  font-size: var(--expertise-text-font-size);
 	}
 
+/* Experience Section */
+#experience .experience {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#experience .experience-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+#experience .experience-item {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px 0 #0000002c;
+  transition: 0.3s ease box-shadow;
+  background-color: #fff;
+}
+#experience .experience-item:hover {
+  box-shadow: 0px 0px 10px 0 #0000002c;
+  transform: translateY(-5px);
+}
+#experience .experience-item h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#experience .experience-item p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #333;
+}
+
+/* End Experience Section */
